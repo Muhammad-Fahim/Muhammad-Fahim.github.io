@@ -1,0 +1,76 @@
+body{
+    background-color: #e0e5ca;
+}
+#platform{
+    width: 1333px;
+    height: 32px;
+    background-color: darkslategray;
+    margin-bottom: 10px;
+    text-align: right;
+}
+#fixed{
+    position: fixed;
+    height: 156px;
+}
+#logo img{
+    float: left;
+}
+#top-left-list{
+    margin: 0px 0px -23px 0px;
+}
+#top-left-list ul, #below-left-list ul{
+  background-color: green;
+  margin: 0px;
+  padding: 0px;
+  line-height: 40px;
+  height: 40px;
+}
+#top-left-list li, #below-left-list li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+#top-left-list ul li a, #below-left-list ul li a{
+    background-color: green;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    display: block;
+    color: white;
+}
+#below-left-list ul li ul li{
+    border-bottom: 2px solid greenyellow;
+}
+#below-left-list ul li img{
+    margin-left: 15px;
+}
+#top-left-list ul li a:hover, #below-left-list ul li a:hover, #below-left-list ul li ul li a:hover{
+    background-color: white;
+    color: green;
+    border-radius: 25px;
+    transition: .5s;
+    text-shadow: 1px 1px 1px greenyellow;
+}
+#top-left-list ul ul, #below-left-list ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+#top-left-list ul li:hover ul, #below-left-list ul li:hover ul{
+    visibility: visible;
+}
+#gape{
+    height: 180px;
+}
+#forms p{
+    display: inline;
+}
+#forms select, #forms input{
+    width: 250px;
+    height: 30px;
+}
+#forms sup{
+    color: red;
+}
